@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');          
+
+html, body {
+      background-image: url(../img/black-linen.png), -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 750, color-stop(0%, #3c6382), color-stop(100%, #0a3d62));
+      background-image: url(../img/black-linen.png), -webkit-radial-gradient(top center, #3c6382, #0a3d62 750px);
+      background-image: url(../img/black-linen.png), -moz-radial-gradient(top center, #3c6382, #0a3d62 750px);
+      background-image: url(../img/black-linen.png), -o-radial-gradient(top center, #3c6382, #0a3d62 750px);
+      background-image: url(../img/black-linen.png), -ms-radial-gradient(top center, #3c6382, #0a3d62 750px);
+      background-image: url(../img/black-linen.png), radial-gradient(top center, #3c6382, #0a3d62 750px);
+      width: 100%;
+      height: 100%;
+      background-color: #3c6382;
+/*      padding-top: 10px;*/
+      font-family: Helvetica, sans-serif;
+}
+
+#actorlogo{
+    border: none  !important;
+     width: 412px !important;
+    height: 256px !important;   
+    align-self: center !important;
+}
+.shadow {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px;
+  background-color: #ffb142 !important;
+  border-bottom-left-radius: 50px;    
+  border-bottom-right-radius: 50px;
+  border-top: solid 10px #0a3d62; 
+    
+}
+
+.grety-nav-link {
+/*    color: #58B19F !important;*/
+    font-family: 'Rammetto One', cursive;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #000;
+    cursor: pointer;
+}
+
+.grety-nav-link:hover{
+    color: #6c5ce7 !important; 
+}
+
+.level {
+    color: #58B19F !important;    
+}
+
+.wins {
+    color: #58B19F !important;    
+}
+
+.points {
+    color: #58B19F !important;    
+}
+
+.reset {
+    color: #82589F !important;    
+}
+
+.help {
+    color: #58B19F !important;     
+}
+
+#contentContainer {
+    margin-top: 50px;
+}
+
+.gcard {
+  background: #0a3d62;
+/*  border-radius: 2px;*/
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+  max-height: 300px;
+  max-width: 300px; 
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border: solid 10px #0a3d62 !important;  
+  -o-transform:rotate(-3deg);
+  -webkit-transform:rotate(-3deg);
+  -moz-transform:rotate(-3deg);
+  position:relative;
+  top:-5px;
+  background:#ccf;
+}
+
+img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border: solid 10px #0a3d62 !important;  
+}
+
+.L1, .L2 {
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    overflow: hidden; 
+    text-align: center;
+    margin: 10px;
+}
+
+.L2:hover {
+    cursor: pointer;
+    color: #6c5ce7;
+    border-bottom: solid 5px #6c5ce7;
+}
+
+.L1:hover {
+    cursor: pointer;
+    color: #6c5ce7;
+    border-bottom: solid 5px #6c5ce7;
+}
+
+
+.letters {
+    color: white;
+    font-size: 65px;
+    margin-top: 0;
+    line-height: 100%;
+}
+
+.letters2 {
+    color: white;
+    font-size: 65px;
+    margin-top: 0;
+    line-height: 100%;
+}
+
+.L1 {
+    border-bottom: solid 5px #ffb142;
+}
+
+.L2 {
+    border-bottom: solid 5px #0a3d62;
+}
+
+.letters {
+    display: block;
+}
+
+.letters2 {
+    display: none;
+}
+
+.letters:hover {
+    color: #ffb142;
+    font-size: 67px;    
+}

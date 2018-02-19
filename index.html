@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Actor's Quiz</title>
+    <!-- favicon-->
+    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon"/>
+    <!-- reset file-->
+    <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+    <!-- effects-->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <!-- fontawesome-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- my own css file-->
+    <link rel="stylesheet" href="assets/css/animate.css" type="text/css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    <div id="mainContainer" class="shadow container">
+       <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="mainNavbar">
+                    <ul class="navbar-nav nav-fill w-100">
+                        <li class="nav-item">
+                            <a class="grety-nav-link level nav-link" href="#">LEVEL&nbsp;&nbsp;<span id="level" class="badge badge-pill badge-info">1</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="grety-nav-link wins nav-link" href="#">WINS&nbsp;&nbsp;<span id="wins" class="badge badge-pill badge-info">0</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="grety-nav-link points nav-link" href="#">TO WIN&nbsp;&nbsp;<span id="towin" class="badge badge-pill badge-info">0</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="grety-nav-link points nav-link" href="#">CHANCES&nbsp;&nbsp;<span id="chances" class="badge badge-pill badge-info">10</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="grety-nav-link reset nav-link" href="javascript: reset();">RESET</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="grety-nav-link help nav-link" data-toggle="modal" data-target=".bd-example-modal-lg">HELP</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- END navbar -->
+    <!--   CONTENT-->
+    <div id="contentContainer" class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="gcard card">
+                  <img id="imagenId" class="card-img-top" src="assets/img/placeholder.jpg" alt="Card image cap">
+                </div>
+            </div>
+            <div id="insertWord" class="col-6">
+                <div id="divContainer" class="row">
+    <!--  here goes the blank spaces -->
+                </div>        
+            </div>
+        </div>    
+    </div>
+    <!-- END CONTENT-->
+    
+    <!-- Game Rules-->
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content container">
+          <div class="modal-header">
+            <img id="actorlogo" src="assets/img/Actor's.png">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <h1 class="text-center">Game Rules</h1>
+          <ul style="text-align: center">
+              <li>Try to guess the characters names by their picture.</li>
+              <li>You have 10 chances to try.</li>
+              <li>If you guess more than 5, you will jump into a new level, and you will get a new badget.</li>
+              <li>Good Luck !!!</li>
+          </ul>
+          <p>For more help contact me <a href="mailto:gretelmn@gmail.com"><i class="fa fa-envelope fa-fw"></i></a></p>
+        </div>
+      </div>
+    </div>
+    <!-- END Game Rules-->
+    <!-- game script-->
+    <script src="assets/js/tryclean.js"></script>
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -101,18 +101,11 @@ img {
     margin: 10px;
 }
 
-.L2:hover {
-    cursor: pointer;
+.L2:hover, .L1:hover {
+    /* cursor: pointer; */
     color: #6c5ce7;
     border-bottom: solid 5px #6c5ce7;
 }
-
-.L1:hover {
-    cursor: pointer;
-    color: #6c5ce7;
-    border-bottom: solid 5px #6c5ce7;
-}
-
 
 .letters {
     color: white;
